@@ -1,0 +1,41 @@
+/*
+ * Style tambahan aplikasi
+ */
+
+/*
+ * Style form pada box header
+ */
+.form-filter-log {
+	width: 140px;
+}
+
+.form-pilih-semester-khs {
+	width: 175px;
+}
+
+.form-pilih-semester-nilai-kinerja-dosen {
+	width: 250px;
+}
+
+.form-cari-pengguna,
+.form-filter-status-sinkronisasi {
+	width: 200px;
+}
+
+.form-filter-program-studi,
+.form-cari-mata-kuliah {
+	width: 250px;
+}
+
+legend {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/**
+ * Messenger Bot
+ */
+df-messenger {
+	--df-messenger-chat-background-color: #f7f8fa;
+	--df-messenger-user-message: #D1F542;
+}
