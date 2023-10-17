@@ -354,7 +354,7 @@
 	</section>
 </div>
 <footer class="main-footer">
-	&copy; UPT ICT UNITAMA : 2017 - 2023    <div class="pull-right hidden-xs">Versi 1.7</div>
+	&copy; ZED : 2023    <div class="pull-right hidden-xs">Versi 1.0</div>
 </footer>		
 </div>
 	<script type="text/javascript" src="<?=base_url()?>assets/bower_components/jquery/dist/jquery.min.js"></script>
