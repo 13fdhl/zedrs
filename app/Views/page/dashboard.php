@@ -11,7 +11,7 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <title>SIPEKA : Dashboard</title>
     <!-- Pemanggilan file style -->
-    <link rel="shortcut icon" href="<?=base_url()?>sipeka/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="<?=base_url()?>assets/sipeka/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="<?=base_url()?>assets/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?=base_url()?>assets/bower_components/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?=base_url()?>assets/bower_components/select2/dist/css/select2.min.css">
@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="<?=base_url()?>assets/dist/css/skins/skin-red.min.css">
     <link rel="stylesheet" href="<?=base_url()?>https://fonts.googleapis.com/cssfamily=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
     <link rel="stylesheet" href="<?=base_url()?>assets/sipeka/css/sipeka.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"> -->
     
     <!-- <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet"> -->
@@ -69,15 +70,16 @@
             <section class="sidebar">
                 <ul class="sidebar-menu" data-widget="tree">
                     <li class="header text-center" style="color: #FFF;"><i class="fa fa-star"></i> ADMIN ZED </span> <i class="fa fa-star"></i></li>
-                    <li class="active"><a href="<?=site_url('dashboard')?>"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
+                    <li class="active"><a href="<?=site_url('dashboard')?>"><i class="fa fa-desktop"></i> <span>Dashboard</span></a></li>
                     <li class=""><a href="<?=site_url('profil')?>"><i class="fa fa-user"></i> <span>Profil</span></a></li>
-                    <li class=""><a href="<?=site_url('chatbot')?>"><i class="fa fa-commenting"></i> <span>Chat BOT Virtual</span> <span class="label label-warning">Beta</span></a></li>
+                    <li class=""><a href="<?=site_url('chatbot')?>"><i class="fa fa-reddit"></i> <span>Chat BOT Virtual</span> <span class="label label-warning">Beta</span></a></li>
                     <li class=""><a href="<?=site_url('bantuan')?>""><i class="fa fa-question-circle"></i> <span>Bantuan</span></a></li>
                     <li><a href="<?=site_url('login')?>"><i class="fa fa-power-off"></i> <span>Logout</span></a></li>
                     <li class="header text-center sidebar-nama-level-pengguna" style="color: #FFF;"><i class="fa fa-star"></i> M E N U <i class="fa fa-star"></i></li>
                     <li class="treeview ">
                         <a href="#">
-                            <i class="fa fa-pencil-square-o"></i>
+                            <!-- <i class="fa fa-pencil-square-o"></i> -->
+                            <i class="fa fa-users"></i>
                             <span>Pegawai</span>
                             <span class="pull-right-container">
                                 <i class="fa fa-angle-left pull-right"></i>
@@ -91,7 +93,7 @@
                     </li>
                     <li class="treeview ">
                         <a href="#">
-                            <i class="fa fa-code"></i>
+                            <i class="fa fa-pencil-square-o"></i>
                             <span>Recruitment</span>
                             <span class="pull-right-container">
                                 <i class="fa fa-angle-left pull-right"></i>
@@ -108,7 +110,7 @@
                     </li>
                     <li class="treeview ">
                         <a href="#">
-                            <i class="fa fa-file-text"></i>
+                            <i class="fa fa-stethoscope"></i>
                             <span>Pelatihan</span>
                             <span class="pull-right-container">
                                 <i class="fa fa-angle-left pull-right"></i>
@@ -122,7 +124,7 @@
                     </li>
                     <li class="treeview ">
                         <a href="#">
-                            <i class="fa fa-diamond"></i>
+                            <i class="fa fa-dollar"></i>
                             <span>KGB</span>
                             <span class="pull-right-container">
                                 <i class="fa fa-angle-left pull-right"></i>
@@ -138,7 +140,7 @@
                     </li>
                     <li class="treeview ">
                         <a href="#">
-                            <i class="fa fa-graduation-cap"></i>
+                            <i class="fa fa-sitemap"></i>
                             <span>KPI</span>
                             <span class="pull-right-container">
                                 <i class="fa fa-angle-left pull-right"></i>
@@ -151,7 +153,7 @@
                     </li>
                     <li class="treeview ">
                         <a href="#">
-                            <i class="fa fa-question-circle"></i>
+                            <i class="fa fa-briefcase"></i>
                             <span>ANJAB</span>
                             <span class="pull-right-container">
                                 <i class="fa fa-angle-left pull-right"></i>
@@ -193,7 +195,7 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="info-box bg-blue">
-                                            <span class="info-box-icon"><i class="fa fa-tachometer"></i></span>
+                                            <span class="info-box-icon"><i class="fa fa-users"></i></span>
                                             <div class="info-box-content">
                                                 <span class="info-box-text">Total Pegawai</span>
                                                 <span class="info-box-number">404</span>
@@ -207,7 +209,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="info-box bg-green">
-                                            <span class="info-box-icon"><i class="fa fa-line-chart"></i></span>
+                                            <span class="info-box-icon"><i class="fa fa-tachometer"></i></span>
                                             <div class="info-box-content">
                                                 <span class="info-box-text">Indeks Pelayanan</span>
                                                 <span class="info-box-number">4.8</span>

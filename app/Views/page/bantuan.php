@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="<?=base_url()?>assets/dist/css/skins/skin-red.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
     <link rel="stylesheet" href="<?=base_url()?>assets/sipeka/css/sipeka.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body class="hold-transition skin-red sidebar-mini">
     <div class="wrapper">	
@@ -63,15 +64,15 @@
             <section class="sidebar">
                 <ul class="sidebar-menu" data-widget="tree">
                     <li class="header text-center" style="color: #FFF;"><i class="fa fa-star"></i> ADMIN ZED </span> <i class="fa fa-star"></i></li>
-                    <li class=""><a href="<?=site_url('dashboard')?>"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
+                    <li class=""><a href="<?=site_url('dashboard')?>"><i class="fa fa-desktop"></i> <span>Dashboard</span></a></li>
                     <li class=""><a href="<?=site_url('profil')?>"><i class="fa fa-user"></i> <span>Profil</span></a></li>
-                    <li class=""><a href="<?=site_url('chatbot')?>"><i class="fa fa-commenting"></i> <span>Chat BOT Virtual</span> <span class="label label-warning">Beta</span></a></li>
+                    <li class=""><a href="<?=site_url('chatbot')?>"><i class="fa fa-reddit"></i> <span>Chat BOT Virtual</span> <span class="label label-warning">Beta</span></a></li>
                     <li class="active"><a href="<?=site_url('bantuan')?>""><i class="fa fa-question-circle"></i> <span>Bantuan</span></a></li>
                     <li><a href="<?=site_url('login')?>"><i class="fa fa-power-off"></i> <span>Logout</span></a></li>
                     <li class="header text-center sidebar-nama-level-pengguna" style="color: #FFF;"><i class="fa fa-star"></i> M E N U <i class="fa fa-star"></i></li>
                     <li class="treeview ">
                         <a href="#">
-                            <i class="fa fa-pencil-square-o"></i>
+                            <i class="fa fa-users"></i>
                             <span>Pegawai</span>
                             <span class="pull-right-container">
                                 <i class="fa fa-angle-left pull-right"></i>
@@ -85,7 +86,7 @@
                     </li>
                     <li class="treeview ">
                         <a href="#">
-                            <i class="fa fa-code"></i>
+                            <i class="fa fa-pencil-square-o"></i>
                             <span>Recruitment</span>
                             <span class="pull-right-container">
                                 <i class="fa fa-angle-left pull-right"></i>
@@ -102,7 +103,7 @@
                     </li>
                     <li class="treeview ">
                         <a href="#">
-                            <i class="fa fa-file-text"></i>
+                            <i class="fa fa-stethoscope"></i>
                             <span>Pelatihan</span>
                             <span class="pull-right-container">
                                 <i class="fa fa-angle-left pull-right"></i>
@@ -116,7 +117,7 @@
                     </li>
                     <li class="treeview ">
                         <a href="#">
-                            <i class="fa fa-diamond"></i>
+                            <i class="fa fa-dollar"></i>
                             <span>KGB</span>
                             <span class="pull-right-container">
                                 <i class="fa fa-angle-left pull-right"></i>
@@ -132,7 +133,7 @@
                     </li>
                     <li class="treeview ">
                         <a href="#">
-                            <i class="fa fa-graduation-cap"></i>
+                            <i class="fa fa-sitemap"></i>
                             <span>KPI</span>
                             <span class="pull-right-container">
                                 <i class="fa fa-angle-left pull-right"></i>
@@ -145,7 +146,7 @@
                     </li>
                     <li class="treeview ">
                         <a href="#">
-                            <i class="fa fa-question-circle"></i>
+                            <i class="fa fa-briefcase"></i>
                             <span>ANJAB</span>
                             <span class="pull-right-container">
                                 <i class="fa fa-angle-left pull-right"></i>
@@ -222,7 +223,7 @@
                                         </div>
                                         <div id="collapseBotTelegram" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
                                             <div class="box-body">
-                                                <p><img src="siakad/img/bot-telegram-siakad-stmik-akba-128-128.jpg" alt="Bot Telegram SIAKAD STMIK AKBA" class="img-circle" /></p>
+                                                <p><img src="siakad/img/bot-telegram-siakad-stmik-akba-128-128.jpg" alt="Bot Telegram SIPEKA RSUD RA.KARTINI" class="img-circle" /></p>
                                                 <p>
                                                     <!-- <a href="https://t.me/SASiakadBot" target="_blank">Bot Telegram STMIK AKBA</a>  -->
                                                     <a href="#" target="_blank">Bot Telegram SIPEKA RSUD RA. KARTINI</a> 
