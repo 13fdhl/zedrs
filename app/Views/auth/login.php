@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="<?=base_url()?>assets-login/bower_component/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?=base_url()?>assets-login/dist_css/AdminLTE.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/cssfamily=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <style>
     img{
@@ -50,16 +51,16 @@
                             <div class="login-box-body">
                                 <form id="frmLogin" action="" method="post">
                                     <div class="form-group has-feedback">
-                                        <input type="email" name="txtAlamatEmail" class="form-control" required="required" placeholder="Alamat Email" value="" />
-                                        <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                                        <input type="username" name="username" class="form-control" required="required" placeholder="Nomor Pegawai" value="" />
+                                        <span class="fa fa-fighter-jet form-control-feedback"></span>
                                     </div>
                                     <div class="form-group has-feedback">
-                                        <input type="password" name="txtKataSandi" class="form-control" required="required" autocomplete="off" placeholder="Kata Sandi" />
-                                        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                                        <input type="password" name="password" class="form-control" required="required" autocomplete="off" placeholder="Password" />
+                                        <span class="fa fa-lock form-control-feedback"></span>
                                     </div>
                                     <div class="form-group text-center">
                                         <!-- <button name="cmdLogin" type="submit" class="btn btn-danger btn-block btn-flat" value="Login"><i class="fa fa-lock"></i> LOGIN</button> -->
-                                        <a href="<?=site_url('dashboard')?>" ctype="button" name="cmdLogin" type="submit" class="btn btn-danger btn-block btn-flat" value="Login"><i class="fa fa-lock"></i>LOGIN</a>
+                                        <a href="<?=site_url('dashboard')?>" ctype="button" name="cmdLogin" type="submit" class="btn btn-danger btn-block btn-flat" value="Login"><i class="fa fa-lock"></i> LOGIN</a>
                                     </div>
                                 </form>
                             </div>

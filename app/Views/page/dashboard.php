@@ -197,13 +197,13 @@
                                         <div class="info-box bg-blue">
                                             <span class="info-box-icon"><i class="fa fa-users"></i></span>
                                             <div class="info-box-content">
-                                                <span class="info-box-text">Total Pegawai</span>
-                                                <span class="info-box-number">404</span>
+                                                <span class="info-box-text">ASN</span>
+                                                <span class="info-box-number">304</span>
                                                 <div class="progress">
                                                     <div class="progress-bar" style="width: 73.611111111111%"></div>
                                                 </div>
                                                 <span class="progress-description">
-                                                    ASN : 144 </span>
+                                                    Total Pegawai : 404 </span>
                                             </div>
                                         </div>
                                     </div>

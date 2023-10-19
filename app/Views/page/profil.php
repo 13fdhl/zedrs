@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="<?=base_url()?>assets/bower_components/easy-autocomplete/css/easy-autocomplete.min.css">
     <link rel="stylesheet" href="<?=base_url()?>assets/dist/css/AdminLTE.min.css">
     <link rel="stylesheet" href="<?=base_url()?>assets/dist/css/skins/skin-red.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/cssfamily=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
     <link rel="stylesheet" href="<?=base_url()?>assets/sipeka/css/sipeka.css">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
